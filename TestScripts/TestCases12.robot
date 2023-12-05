@@ -16,7 +16,7 @@ Open wordpress website
     #${headertext1}=   IsElement    //h1[@class\='wp-block-heading has-text-align-center has-x-large-font-size1']
     
     # Verifying component is available in the page or not, if available return True or if not available return false
-    ${headertext}=      IsElement    //section[@class\="page-title"]//h1
+    ${headertext}=      IsElement    //section[@class\="page-title1"]//h1
     ${headertext1}=      IsElement    //h1[@class\='post-title entry-title']
     Log               ${headertext}
     Log               ${headertext1}
