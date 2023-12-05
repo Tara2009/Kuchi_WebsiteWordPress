@@ -28,7 +28,7 @@ Open wordpress website
 *** Keywords ***
 Test Keyword 1
     Log To Console    Executed Keyword 1 - Component 1 is Enable
-    ${Blogtext}=     GetText    //section[@class="page-title"] //h1
+    ${Blogtext}=     GetText    //section[@class\="page-title"] //h1
     Log              ${Blogtext}
     Log               Log Executed 1 - Component 1 is Enable and stored the value into varibale
 Test Keyword 2
